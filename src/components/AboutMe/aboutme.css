@@ -1,4 +1,4 @@
-#aboutMe {
+ #aboutMe {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -13,13 +13,71 @@
 .aboutMeTitle {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
-    padding-top: 3rem;
+    margin-bottom: 1rem;
+    color: #E5D283;
+
 }
 
 .aboutMeText {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    padding: 0 1rem;
+   font-weight: 300;
+   font-size: 1.1rem;
+   max-width: 75rem;
+   padding: 0 2rem;
+   margin-bottom: 1rem;
+} 
+
+.skillBars{
+  margin: 1rem 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
 }
+
+.skillBar{
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: #98b9c463;
+}
+
+.skillBarImg {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+h2 {
+  color: #E5D283;
+  font-size: 2rem;
+}
+
+.skillBarText {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMeText {
+    font-weight: 200;
+    font-size: .7rem;
+ } 
+
+ .skillBarText {
+  font-size: .55rem;
+  font-weight: 200;
+}
+
+.skillBarImg {
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+} 
