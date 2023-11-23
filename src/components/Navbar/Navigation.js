@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <img src={logo} alt="logo" className="logoNav" />
       <div className="desktopMenu">
         <Link className="navbarLinks">Home</Link>
         <Link className="navbarLinks">About Me</Link>

@@ -1,28 +1,25 @@
 #intro {
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 10rem);
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .bg {
   position: relative;
-  top: -1rem;
+  top: 1.5rem;
   right: 5vw;
   z-index: -1;
   object-fit: cover;
-  height: 30rem;
+  height: 25rem;
   width: auto;
   border-radius: 30rem;
   border: #E5D283 solid 3px;
 }
 
-section {
-  padding-top: 5rem;
-  display: flex;
-  align-items: center;
-}
 
 .introContent {
   height: 100vh;
@@ -43,8 +40,9 @@ section {
 
 .introName {
   color: #E5D283;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   font-weight: 700;
+  font-style: italic !important;
 }
 
 .introPara{
@@ -80,8 +78,14 @@ section {
 }
 
 @media screen and (max-width: 620px) {
+
+  #intro {
+    height: calc(100vh - 19rem)
+  }
+
   .bg {
-    height: 20rem;
+    top: 0rem;
+    height: 15rem;
     width: auto;
     border-radius: 15rem;
   }
