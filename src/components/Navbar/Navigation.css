@@ -1,0 +1,51 @@
+.navbar {
+  height: 8rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  object-fit: cover;
+  height: 16rem;
+  width: 16rem;
+  margin-top: 3rem;
+}
+
+.navbarLinks {
+  margin: 1rem;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.navbarLinks:hover {
+  color: #E5D283;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #E5D283;
+}
+
+.contactMeBtn {
+  border: none;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 0 1rem;
+}
+
+.contactMeImg {
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+

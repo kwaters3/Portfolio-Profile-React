@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  background: #265073;
+  color: #ecf4d6;
+  overflow: hidden;
+  overflow-y: scroll;
+}
