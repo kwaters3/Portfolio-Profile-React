@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link className="navbarLinks">Home</Link>
         <Link className="navbarLinks">About Me</Link>
         <Link className="navbarLinks">Portfolio</Link>
-        <Link className="navbarLinks">Resume</Link>
+        {/* <Link className="navbarLinks">Resume</Link> */}
       </div>
       <button className="contactMeBtn">
         <img src={contactImg} alt="contact image" className="contactMeImg" />{" "}
