@@ -1,9 +1,9 @@
 #intro {
-  height: calc(100vh - 10rem);
+  height: 100vh;
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   align-items: center;
 }
@@ -80,7 +80,11 @@
 @media screen and (max-width: 620px) {
 
   #intro {
-    height: calc(100vh - 19rem)
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .bg {
@@ -88,16 +92,19 @@
     height: 15rem;
     width: auto;
     border-radius: 15rem;
+    margin-left: 2rem;
   }
 
   .introContent {
+    word-spacing: 3px;
+    width: 100vw;
     padding: 2rem;
     font-size: 1rem;
+    text-align: center;
   }
 
   .introPara{
-    font-size: x-small;
-    margin-right: 0;
+    font-size: xx-small;
   }
 
   section {

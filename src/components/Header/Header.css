@@ -9,7 +9,17 @@
 
 .logoHeader {
   object-fit: cover;
-  height: 15rem;
-  width: 15rem;
+  height: 18rem;
+  width: 18rem;
   margin-top: 0rem;
+}
+
+@media screen and (max-width: 855px) {
+  .logoHeader {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 0rem;
+  }
+  
 }

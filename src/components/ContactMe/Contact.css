@@ -1,0 +1,97 @@
+#contact {
+  background-color: rgba(46, 71, 91, 0.418);
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.cTitle {
+ 
+    font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #E5D283;
+  
+}
+
+.cSub {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.name, .email, .msg {
+  font-size: medium;
+  color: darkblue;
+  width: 100%;
+  max-width: 40rem;
+  margin: .5rem;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(240, 255, 255, 0.75);
+}
+
+.submitbtn {
+  font-size: medium;
+  font-weight: 600;
+  color: black;
+  width: 20%;
+  max-width: 40rem;
+  margin-top: 1rem;
+  padding: .75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(240, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.link {
+  height: 4rem;
+  width: 4rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .cTitle {
+    font-size: 2rem;
+  }
+  .cSub {
+    font-size: 1rem;
+  }
+  .name, .email, .msg {
+    font-size: small;
+  }
+  .submitbtn {
+    font-size: small;
+    width: auto;
+  }
+  .links {
+    margin: 0;
+  }
+  .link {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+  }
+}
