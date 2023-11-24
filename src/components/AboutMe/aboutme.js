@@ -1,10 +1,10 @@
 import React from 'react';
-import './aboutme.css';
+import './AboutMe.css';
 import FullStack from '../../assets/fullstack.png';
 import FrontEnd from '../../assets/frontend.png';
 import BackEnd from '../../assets/backend.png';
 
-const AboutMe = () => {
+const About = () => {
   return (
     <div>
     <section id='aboutMe'>
@@ -45,4 +45,4 @@ const AboutMe = () => {
   );
 }
 
-export default AboutMe;
+export default About;
