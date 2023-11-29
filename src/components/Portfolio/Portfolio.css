@@ -61,6 +61,16 @@
   width: 4rem;
 }
 
+.jobIcon {
+  position: absolute;
+  bottom: -2%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 4rem;
+  width: 4rem;
+}
+
 .bloglogo {
   position: absolute;
   bottom: -2%;
@@ -83,7 +93,8 @@
 
 .githubIcon:hover, 
 .bloglogo:hover,
-.happyCow:hover {
+.happyCow:hover,
+.jobIcon:hover {
   cursor: pointer;
   border: #E5D283 solid 3px;
   border-radius: 50px;
@@ -112,4 +123,44 @@
  .worksSubTitle {
    font-size: 1rem;
  }
+
+ .bloglogo {
+  position: absolute;
+  bottom: 7%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 2.5rem;
+  width: 4rem;
+}
+
+.happyCow {
+  position: absolute;
+  bottom: -2%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 4rem;
+  width: 5rem;
+}
+
+.githubIcon {
+  position: absolute;
+  bottom: 4%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 3rem;
+  width: 3rem;
+}
+
+.jobIcon {
+  position: absolute;
+  bottom: 4%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 3rem;
+  width: 3rem;
+}
 }

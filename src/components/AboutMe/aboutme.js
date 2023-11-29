@@ -27,8 +27,8 @@ const About = () => {
             <div className='skillBar'>
               <img src={FrontEnd} alt='Web Design' className='skillBarImg'/>
               <div className='skillBarText'>
-                <h2>WEB</h2>
-                <p>As a web designer, I create visually appealing and functional websites using the latest design tools, staying ahead of trends to meet evolving user expectations.</p>
+                <h2>Web & App</h2>
+                <p>As a web and app designer, I create visually appealing and functional websites and applications using the latest design tools, staying ahead of trends to meet evolving user expectations.</p>
           </div>
           </div>
           </div>
@@ -36,8 +36,8 @@ const About = () => {
             <div className='skillBar'>
               <img src={BackEnd} alt='App Design' className='skillBarImg'/>
               <div className='skillBarText'>
-                <h2>Back - End</h2>
-                <p>As an app designer, with a passion for crafting visually stunning, user-centric applications. Proficient in cutting-edge design tools, I bring creativity and functionality to every project.</p>
+                <h2>Full-Stack</h2>
+                <p> Full Stack MERN Developer specializing in end-to-end web solutions. My expertise includes MongoDB, Express.js, React.js, and Node.js, and I thrive in collaborative, cross-functional environments. Committed to staying ahead, I'm gearing up with skills in AWS, Azure, Docker, Kubernetes, and serverless architectures. Let's create the future of web development together, blending innovation with user-centric design.</p>
           </div>
           </div>
       </div>
