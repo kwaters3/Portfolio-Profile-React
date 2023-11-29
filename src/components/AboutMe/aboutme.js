@@ -4,6 +4,7 @@ import FullStack from '../../assets/fullstack.png';
 import FrontEnd from '../../assets/frontend.png';
 import BackEnd from '../../assets/backend.png';
 
+
 const About = () => {
   return (
     <div>

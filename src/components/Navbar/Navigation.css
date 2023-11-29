@@ -1,14 +1,13 @@
 .navbar {
-   /* margin: 0 auto; */
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  width: 100%;
+  padding: 0px 30px; 
   background-color: rgb(46, 71, 91);
+  z-index: 1000;
 }
 
 .logoNav {
@@ -67,4 +66,4 @@
     }
    
   }
-  
+   
