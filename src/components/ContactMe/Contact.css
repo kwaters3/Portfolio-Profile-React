@@ -86,6 +86,14 @@
   cursor: pointer;
 }
 
+.linkg{
+  object-fit: cover;
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .cTitle {
     font-size: 2rem;
@@ -106,6 +114,12 @@
   .link {
     height: 3rem;
     width: 3rem;
+    margin: 1rem;
+  }
+
+  .linkg {
+    height: 2.5rem;
+    width: 2.5rem;
     margin: 1rem;
   }
 }

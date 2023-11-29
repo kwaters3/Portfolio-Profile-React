@@ -3,6 +3,7 @@ import "./Contact.css";
 import FacebookIcon from '../../assets/facebook-icon.png';
 import InstagramIcon from '../../assets/instagram.png';
 import YoutubeIcon from '../../assets/youtube.png';
+import GitHub from '../../assets/github.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -43,10 +44,20 @@ const Contact = () => {
         <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
         <button type="submit" value='Send' className="submitbtn">Submit</button>
         <div className="links">
-          <img src={FacebookIcon} alt="facebook icon" className="link" />
-          <img src={InstagramIcon} alt="instagram icon" className="link" />
-          <img src={YoutubeIcon} alt="youtube icon" className="link" />
-        </div>
+
+        <a href="https://github.com/kwaters3" target="_blank" rel="noopener noreferrer">
+        <img src={GitHub} alt="github icon" className="linkg" />
+      </a>    
+      <a href="https://www.facebook.com/knickler/" target="_blank" rel="noopener noreferrer">
+        <img src={FacebookIcon} alt="facebook icon" className="link" />
+      </a>
+      <a href="https://www.instagram.com/ktwaters3/" target="_blank" rel="noopener noreferrer">
+        <img src={InstagramIcon} alt="instagram icon" className="link" />
+      </a>
+      <a href="https://www.youtube.com/channel/UC0gd2JJQK1R9_lRJWkkuvqg" target="_blank" rel="noopener noreferrer">
+        <img src={YoutubeIcon} alt="youtube icon" className="link" />
+      </a>
+    </div>
       </form>
 
       {/* Popup message */}
