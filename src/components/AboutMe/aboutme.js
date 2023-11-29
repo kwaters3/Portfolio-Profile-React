@@ -18,7 +18,7 @@ const About = () => {
             <div className='skillBar'>
               <img src={FullStack} alt='UI design' className='skillBarImg'/>
               <div className='skillBarText'>
-                <h2>Full Stack</h2>
+                <h2>UI/UX</h2>
                 <p>As a skilled UI designer, I excel in creating visually stunning and user-friendly interfaces. Proficient in cutting-edge design tools, I'm committed to continuous learning, staying at the forefront of UI design to tackle new challenges and push digital aesthetics boundaries.</p>
           </div>
           </div>
@@ -27,7 +27,7 @@ const About = () => {
             <div className='skillBar'>
               <img src={FrontEnd} alt='Web Design' className='skillBarImg'/>
               <div className='skillBarText'>
-                <h2>Front - End</h2>
+                <h2>WEB</h2>
                 <p>As a web designer, I create visually appealing and functional websites using the latest design tools, staying ahead of trends to meet evolving user expectations.</p>
           </div>
           </div>
