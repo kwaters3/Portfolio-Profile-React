@@ -3,11 +3,13 @@ import "./Navigation.css";
 import logo from "../../assets/logo.png";
 import contactImg from "../../assets/contact.png";
 import { Element, Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import menu from "../../assets/menu.png";
 
 const Navbar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
+  const [showMenu, setShowMenu] = React.useState(false);
 
   return (
     <Element name="navbar">
@@ -28,6 +30,23 @@ const Navbar = () => {
       }}>
           <img src={contactImg} alt="contact image" className="contactMeImg" /> Contact Me
         </button>
+
+
+        <img src={menu} alt="Menu" className="mobileMenu" onClick={() => setShowMenu(!showMenu)} />
+        <div className="navMenu" style={{display: showMenu  ? 'flex':'none'}}>
+          <ScrollLink className="listItem"  to="intro" offset={-50} smooth={true} duration={500} onClick={ () => setShowMenu(false)}>
+            Home
+          </ScrollLink>
+          <ScrollLink className="listItem" to="aboutMe" offset={50} smooth={true} duration={500} onClick={ () => setShowMenu(false)}>
+            About Me
+          </ScrollLink>
+          <ScrollLink className="listItem" to="portfolio" offset={75} smooth={true} duration={500} onClick={ () => setShowMenu(false)}>
+            Portfolio
+          </ScrollLink>
+          <ScrollLink className="listItem" to="contact" offset={50} smooth={true} duration={500} onClick={ () => setShowMenu(false)}>
+            Contact
+          </ScrollLink>
+        </div>
       </nav>
     </Element>
   );
