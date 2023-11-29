@@ -1,5 +1,5 @@
 #intro {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
@@ -10,7 +10,7 @@
 
 .bg {
   position: relative;
-  top: 1.5rem;
+  /* top: 1.5rem; */
   right: 5vw;
   z-index: -1;
   object-fit: cover;
@@ -22,9 +22,9 @@
 
 
 .introContent {
-  height: 100vh;
+  height: 80vh;
   width: 80vw;
-  padding: 8rem;
+  padding: 6rem;
   font-size: 3rem;
   font-weight: 700;
   display: flex;
@@ -54,7 +54,7 @@
 }
 
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:950px) {
   .bg {
     height: 20rem;
     width: auto;
@@ -80,7 +80,7 @@
 @media screen and (max-width: 620px) {
 
   #intro {
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 10rem);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@
   }
 
   .bg {
-    top: 0rem;
+    /* top: -1rem; */
     height: 15rem;
     width: auto;
     border-radius: 15rem;
@@ -111,4 +111,16 @@
     padding-top: 0;
   }
   
+}
+
+
+@media screen and (max-width: 376px) {
+
+  #intro {
+    height: calc(100vh - 7rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

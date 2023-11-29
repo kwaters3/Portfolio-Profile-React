@@ -24,7 +24,8 @@ const Navbar = () => {
             Portfolio
           </ScrollLink>
         </div>
-        <button className="contactMeBtn">
+        <button className="contactMeBtn" onClick={() => {document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+      }}>
           <img src={contactImg} alt="contact image" className="contactMeImg" /> Contact Me
         </button>
       </nav>

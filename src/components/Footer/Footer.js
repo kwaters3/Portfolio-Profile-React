@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {  
   return (
-    <section id="footer">Footer</section>
+    <footer className="footer">Copyright &#169; 2023 Katie Waters. All rights reserved. </footer>
     
   )
 }

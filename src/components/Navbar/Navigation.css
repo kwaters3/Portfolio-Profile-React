@@ -1,13 +1,13 @@
 .navbar {
-   margin: 0 auto;
+   /* margin: 0 auto; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   position: sticky;
-  top: 0rem;
-  z-index: 100;
+  top: 0;
+  z-index: 1000;
   background-color: rgb(46, 71, 91);
 }
 

@@ -47,12 +47,17 @@
 
 @media screen and (max-width: 768px) {
 #portfolio{
-  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
 }
 
   .worksImg {
-    height: 12rem;
-    width: 10rem;
+    height: 14rem;
+    width: 12rem;
   }
 
  .pTitle {
