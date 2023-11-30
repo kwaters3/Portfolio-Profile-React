@@ -123,4 +123,12 @@
     align-items: center;
     justify-content: center;
   }
+
+  .bg {
+    top: -2rem;
+    height: 12rem;
+    width: auto;
+    border-radius: 15rem;
+    margin-left: 2rem;
+  }
 }

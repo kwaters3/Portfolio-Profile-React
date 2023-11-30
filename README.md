@@ -23,31 +23,21 @@ The SVG logo maker is part of Object Oriented Programming, that is built using N
 
 #### Click on the image below to reveal the video walk-through/demonstration:
 
-[![Screenshot](./images/SVG.png)](https://youtu.be/O2hfsgFkzxw)
+[![Screenshot](./src/assets/logo.png)](https://kwaters.netlify.app/)
 
 ## Installation
 
 #### How to install the application:
 
-- To follow along - Open the [VIDEO WALKTHROUGH](https://youtu.be/O2hfsgFkzxw) for guidance.
-
-- First, clone the git repository from [GitHub](https://github.com/kwaters3/SVG-Logo-Maker#click-on-the-image-below-to-reveal-the-video-walk-throughdemonstration)
-
-- Next, install the required packages by using the following command: `npm install`
-
-- Then, invoke the application by using the following command: `npm start`
-
-- Finally, the user will have access to the SVG Logo Maker to specially craft and design their own logo.
+- No need to install - [click here to open](https://kwaters.netlify.app/)
 
 ## Usage
 
 #### How to use the application:
 
-- First, install the given application/project/dependecies.
+- First - open the [link](https://kwaters.netlify.app/)
+- Then use the navigation 
 
-- Next, the command-line application will prompt the user with the following: `choose a shape [Triangle, Circle, Square]`, `Enter 3 character text`, `Choose text color`, & `Choose shape background color`.
-
-- Finally, when the command-prompts are complete, `Generated logo.svg` will appear in the console and your new SVG logo will be available in the newly generated SVG file.
 
 ## Dependencies
 
