@@ -1,12 +1,10 @@
 # Profile-React
 
-Profile page designed using React
-
 [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The SVG logo maker is part of Object Oriented Programming, that is built using Node.js that will take in user input to generate a logo by color, shape, and text within the shape. This logo will be designed by the user using Node.js and Inquirer.
+My first React Profile - Page Project!
 
 ## Table of Contents
 
@@ -15,7 +13,7 @@ The SVG logo maker is part of Object Oriented Programming, that is built using N
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Test](#test)
+- [Contributions](#contributions)
 - [License](#license)
 - [Questions](#questions)
 
@@ -23,7 +21,7 @@ The SVG logo maker is part of Object Oriented Programming, that is built using N
 
 #### Click on the image below to reveal the video walk-through/demonstration:
 
-[![Screenshot](./src/assets/logo.png)](https://kwaters.netlify.app/)
+[![Screenshot](./src/assets/logo.png)]()
 
 ## Installation
 
@@ -35,19 +33,22 @@ The SVG logo maker is part of Object Oriented Programming, that is built using N
 
 #### How to use the application:
 
-- First - open the [link]()
-- Then use the navigation 
+- First - open the [link](https://kwaters.netlify.app/)
+- Then use the navigation panel to navigate to:
+  - `Home`
+  - `About Me`
+  - `My Projects`
+  - `Contact Me`
 
 
 ## Dependencies
 
-- [inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- [jest](https://www.npmjs.com/package/jest)
+- [REACT](https://react.dev/learn)
 
-## Test
 
-To run unit testing, open the terminal, and the use the command: `npm run test`.
-<br/>There is currently one test suite, testing for 3 structures/tests.
+## Contributions
+
+To contribute, clone the [GitHub Repo](https://github.com/kwaters3/Portfolio-Profile-React), create a new branch and add input.
 
 ## License
 
