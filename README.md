@@ -19,9 +19,9 @@ My first React Profile - Page Project!
 
 ## Visuals
 
-#### Click on the image below to reveal the video walk-through/demonstration:
+#### Click on the image below to view profile-website:
 
-[![Screenshot](./src/assets/logo.png)]()
+[![Screenshot](./src/assets/logo.png)](https://kwaters.netlify.app/)
 
 ## Installation
 
