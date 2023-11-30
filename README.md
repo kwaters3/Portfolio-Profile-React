@@ -35,7 +35,7 @@ The SVG logo maker is part of Object Oriented Programming, that is built using N
 
 #### How to use the application:
 
-- First - open the [link](https://kwaters.netlify.app/)
+- First - open the [link]()
 - Then use the navigation 
 
 

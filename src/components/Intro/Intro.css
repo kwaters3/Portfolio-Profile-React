@@ -113,6 +113,17 @@
   
 }
 
+@media screen and (max-width: 555px) {
+
+  #intro {
+    height: 80vh;
+  }
+
+  .bg {
+    top: -1rem;
+}
+}
+
 
 @media screen and (max-width: 391px) {
 
