@@ -1,5 +1,5 @@
 #intro {
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
@@ -10,7 +10,7 @@
 
 .bg {
   position: relative;
-  /* top: 1.5rem; */
+  top: 1rem;
   right: 5vw;
   z-index: -1;
   object-fit: cover;
@@ -80,7 +80,7 @@
 @media screen and (max-width: 769px) {
 
   #intro {
-    height: calc(100vh - 20rem);
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,10 +114,10 @@
 }
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 391px) {
 
   #intro {
-    height: calc(100vh - 7rem);
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,7 +125,7 @@
   }
 
   .bg {
-    top: -2rem;
+    top: .25rem;
     height: 12rem;
     width: auto;
     border-radius: 15rem;
