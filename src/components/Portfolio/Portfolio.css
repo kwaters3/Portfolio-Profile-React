@@ -53,7 +53,7 @@
 
 .githubIcon {
   position: absolute;
-  bottom: -2%;
+  bottom: -4%;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -63,8 +63,8 @@
 
 .jobIcon {
   position: absolute;
-  bottom: -2%;
-  left: 70%;
+  bottom: -4%;
+  left: 65%;
   transform: translate(-50%, -50%);
   z-index: 1;
   height: 4rem;
@@ -73,7 +73,7 @@
 
 .bloglogo {
   position: absolute;
-  bottom: -2%;
+  bottom: -4%;
   left: 70%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -83,8 +83,8 @@
 
 .happyCow {
   position: absolute;
-  bottom: -3%;
-  left: 70%;
+  bottom: -5%;
+  left: 65%;
   transform: translate(-50%, -50%);
   z-index: 1;
   height: 4.5rem;
@@ -96,8 +96,10 @@
 .happyCow:hover,
 .jobIcon:hover {
   cursor: pointer;
-  border: #E5D283 solid 3px;
-  border-radius: 50px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in-out 0s;
+  /* border: #E5D283 solid 3px; */
+  /* border-radius: 50px; */
 }
 
 

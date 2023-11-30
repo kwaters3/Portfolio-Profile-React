@@ -94,6 +94,14 @@
   cursor: pointer;
 }
 
+.link:hover {
+  transform: scale(1.1);
+}
+
+.linkg:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px) {
   .cTitle {
     font-size: 2rem;
