@@ -4,7 +4,7 @@
 
 ## Description
 
-My first React Profile - Page Project!
+My first React Profile - Project!
 
 ## Table of Contents
 
