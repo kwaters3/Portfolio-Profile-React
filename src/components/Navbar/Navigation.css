@@ -41,6 +41,11 @@
   padding: 0 1rem;
 }
 
+.contactMeBtn:hover {
+  box-shadow: 0 0 10px rgb(158, 207, 244);
+  cursor: pointer;
+}
+
 .contactMeImg {
   object-fit: cover;
   height: 2rem;
