@@ -40,20 +40,19 @@
   height: 20rem;
   width: 25rem;
   margin: 1rem;
-  padding-bottom: 4.5rem;
+  padding-bottom: 5.5rem;
   border-radius: 1rem;
-  /* border: #E5D283 solid 3px; */
-  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .port1 {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .githubIcon {
   position: absolute;
-  bottom: -4%;
+  bottom: -1.5%;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -63,7 +62,7 @@
 
 .jobIcon {
   position: absolute;
-  bottom: -4%;
+  bottom: -1.5%;
   left: 65%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -73,7 +72,7 @@
 
 .bloglogo {
   position: absolute;
-  bottom: -4%;
+  bottom: -1.5%;
   left: 70%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -83,7 +82,7 @@
 
 .happyCow {
   position: absolute;
-  bottom: -5%;
+  bottom: -2.5%;
   left: 65%;
   transform: translate(-50%, -50%);
   z-index: 1;
